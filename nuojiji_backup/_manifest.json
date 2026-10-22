@@ -1,8 +1,8 @@
 {
   "version": 7,
-  "timestamp": 1792654900193,
-  "appVersion": "",
-  "source": "auto",
+  "timestamp": 1792655128030,
+  "appVersion": "6.9.98 (2026.10.18)",
+  "source": "manual",
   "device": "app-ios",
   "tables": [
     "characters",
@@ -318,11 +318,6 @@
       "gz": false,
       "b": "09aed13a7dd17b60d1f643055059f1649561edb3"
     },
-    "_localStorage.json": {
-      "h": "g:2fd9db83ae50d158241abb415d97db27c6a21cb9",
-      "gz": false,
-      "b": "2fd9db83ae50d158241abb415d97db27c6a21cb9"
-    },
     "messages_chunk_5.json": {
       "h": "g:0945b57ca5049310afda57db2f359d293cb3079e",
       "gz": false,
@@ -377,6 +372,11 @@
       "h": "g:6e3dbab61954fb64b8307b20d7cd5c67c221b150",
       "gz": false,
       "b": "6e3dbab61954fb64b8307b20d7cd5c67c221b150"
+    },
+    "_localStorage.json": {
+      "h": "g:44a1a4fb760af77f97b066a10867edbeee608d62",
+      "gz": false,
+      "b": "44a1a4fb760af77f97b066a10867edbeee608d62"
     },
     "tmStories.json": {
       "h": "g:5846db569de8a75f8544e37338ba4d5003b4af03",

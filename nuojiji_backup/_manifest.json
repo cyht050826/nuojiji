@@ -1,8 +1,8 @@
 {
   "version": 7,
-  "timestamp": 1792655128030,
-  "appVersion": "6.9.98 (2026.10.18)",
-  "source": "manual",
+  "timestamp": 1792656145438,
+  "appVersion": "",
+  "source": "auto",
   "device": "app-ios",
   "tables": [
     "characters",
@@ -243,11 +243,6 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
-    "characters.json": {
-      "h": "g:2f4d007ed0be80352b9359286d2940364688fea8",
-      "gz": false,
-      "b": "2f4d007ed0be80352b9359286d2940364688fea8"
-    },
     "friendRequests.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -257,6 +252,11 @@
       "h": "g:076e737721cc0806eb6b4e09c2093fc8763a81e4",
       "gz": false,
       "b": "076e737721cc0806eb6b4e09c2093fc8763a81e4"
+    },
+    "_localStorage.json": {
+      "h": "g:2d8e968d171211efadedc39a040ff0d48278f8f5",
+      "gz": false,
+      "b": "2d8e968d171211efadedc39a040ff0d48278f8f5"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -273,15 +273,15 @@
       "gz": false,
       "b": "c19efb710aa214db9bb2864a9ed4aaf9bebca349"
     },
-    "users.json": {
-      "h": "g:bfdb13504aaddc1a7530d85f12190de4acc77adc",
+    "characters.json": {
+      "h": "g:f4855b7d795c8fece1e51665f1e66f983d66b228",
       "gz": false,
-      "b": "bfdb13504aaddc1a7530d85f12190de4acc77adc"
+      "b": "f4855b7d795c8fece1e51665f1e66f983d66b228"
     },
-    "userState.json": {
-      "h": "g:3e8093b37e459aa0631751280d80090f719d1274",
+    "users.json": {
+      "h": "g:64a445af34803c12a10670fd68a4bff7cb1f68f5",
       "gz": false,
-      "b": "3e8093b37e459aa0631751280d80090f719d1274"
+      "b": "64a445af34803c12a10670fd68a4bff7cb1f68f5"
     },
     "userPosts.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -333,6 +333,11 @@
       "gz": false,
       "b": "8a1770b7fb3404046c8a384f8c58c6a68caad8bd"
     },
+    "userState.json": {
+      "h": "g:efa63cc4ed00725dca516c274e2ff2c414c80837",
+      "gz": false,
+      "b": "efa63cc4ed00725dca516c274e2ff2c414c80837"
+    },
     "messages_chunk_8.json": {
       "h": "g:2ce501ea2a284582d6da6b6f4b05bab5d128762a",
       "gz": false,
@@ -372,11 +377,6 @@
       "h": "g:6e3dbab61954fb64b8307b20d7cd5c67c221b150",
       "gz": false,
       "b": "6e3dbab61954fb64b8307b20d7cd5c67c221b150"
-    },
-    "_localStorage.json": {
-      "h": "g:44a1a4fb760af77f97b066a10867edbeee608d62",
-      "gz": false,
-      "b": "44a1a4fb760af77f97b066a10867edbeee608d62"
     },
     "tmStories.json": {
       "h": "g:5846db569de8a75f8544e37338ba4d5003b4af03",
@@ -643,11 +643,6 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "jiliData.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
     "jiliCreators.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -908,10 +903,10 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "rowFieldItems.json": {
-      "h": "g:2034bdf4cc0a34c2d26ccea7632ff09d38a4fc26",
+    "jiliData.json": {
+      "h": "g:69b857f5145023cc76d39313dfb3695343205801",
       "gz": false,
-      "b": "2034bdf4cc0a34c2d26ccea7632ff09d38a4fc26"
+      "b": "69b857f5145023cc76d39313dfb3695343205801"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -973,10 +968,10 @@
       "gz": false,
       "b": "5aba0143c3edc52e7472c64b13ca985567b97972"
     },
-    "walletData.json": {
-      "h": "g:773f3e1bbfa4a45059b7ebd1da864e489d1403e5",
+    "rowFieldItems.json": {
+      "h": "g:0c8281c18933b7e8b44264b189da71cbb4e58f30",
       "gz": false,
-      "b": "773f3e1bbfa4a45059b7ebd1da864e489d1403e5"
+      "b": "0c8281c18933b7e8b44264b189da71cbb4e58f30"
     },
     "shopOrders.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1067,6 +1062,11 @@
       "h": "g:53e9700a7b7dbcf06568d6f1f4be03fb5be72f74",
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
+    },
+    "walletData.json": {
+      "h": "g:12365b2e0a0e5eef1255f605fa8142614fefb3c9",
+      "gz": false,
+      "b": "12365b2e0a0e5eef1255f605fa8142614fefb3c9"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

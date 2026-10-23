@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1792739237054,
+  "timestamp": 1792739263767,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -264,9 +264,9 @@
       "b": "fbdea9d1d5887f8f1fbe10460420ade7d1c05229"
     },
     "_localStorage.json": {
-      "h": "g:059e6600eba6a9fb772fe1c957cccfd46aa4b865",
+      "h": "g:707ef55326ecff525f9e0e277dbd7b388a8dcff9",
       "gz": false,
-      "b": "059e6600eba6a9fb772fe1c957cccfd46aa4b865"
+      "b": "707ef55326ecff525f9e0e277dbd7b388a8dcff9"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -644,9 +644,9 @@
       "b": "3d7ed3416d833ef26f45e29961718a95b03fc237"
     },
     "chatSettings.json": {
-      "h": "g:e3aafeeace6d87cfbebae04ebae6096736174b72",
+      "h": "g:2729e6992c70126a1209ee78bfcf8c3be41a222a",
       "gz": false,
-      "b": "e3aafeeace6d87cfbebae04ebae6096736174b72"
+      "b": "2729e6992c70126a1209ee78bfcf8c3be41a222a"
     },
     "stickerStore_chunk_0.json": {
       "h": "g:5ad58d5e5b3388114b069081b9ec490b2d353b64",
@@ -1124,9 +1124,9 @@
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
     },
     "imageStore_chunk_26.json": {
-      "h": "g:b0e531cc3de54abaeca3809e48ee95abb412b335",
+      "h": "g:5a859871c079d2251077923b982619d2e20890d5",
       "gz": false,
-      "b": "b0e531cc3de54abaeca3809e48ee95abb412b335"
+      "b": "5a859871c079d2251077923b982619d2e20890d5"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

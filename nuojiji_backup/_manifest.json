@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1792762091135,
+  "timestamp": 1792762105826,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -258,6 +258,11 @@
       "gz": false,
       "b": "070f0a35510099d737b863bdd19817726ac570dd"
     },
+    "characters.json": {
+      "h": "g:8edaf89b64249cb96ed52d8628bba8082c549525",
+      "gz": false,
+      "b": "8edaf89b64249cb96ed52d8628bba8082c549525"
+    },
     "friendRequests.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -337,11 +342,6 @@
       "h": "g:b039a34f076cbb33b2553f18cb7264f7da78afce",
       "gz": false,
       "b": "b039a34f076cbb33b2553f18cb7264f7da78afce"
-    },
-    "characters.json": {
-      "h": "g:8edaf89b64249cb96ed52d8628bba8082c549525",
-      "gz": false,
-      "b": "8edaf89b64249cb96ed52d8628bba8082c549525"
     },
     "messages_chunk_7.json": {
       "h": "g:65ab0786a19c221a49f429c086659434ec18b0dc",

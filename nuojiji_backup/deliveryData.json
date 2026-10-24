@@ -1,1 +1,1 @@
-[]
+[{"cart":null,"favorites":[],"coupons":[{"id":"dc_mvlvre0o_ixkj","type":"redpacket","amount":8,"threshold":30,"expiresAt":1793419798200,"source":"invite","used":true,"usedAt":1792815074410},{"id":"dc_mvlvrihq_msqq","type":"redpacket","amount":4,"threshold":12,"expiresAt":1792987803998,"source":"lottery"}],"vip":{"until":1795406993665,"freeShipLeft":10,"since":1792814993665,"saved":4.96},"lotteryDay":"2026-10-24","speed":"real","addressId":null,"userId":"uid_1774882388181_mr0vrjk8f","invited":["850d4527-0a72-4a2f-a111-b48e3abbc13b"]}]

@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1792826989437,
+  "timestamp": 1792828251801,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -253,6 +253,11 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
+    "characters.json": {
+      "h": "g:5740bd3bc3176c8f70729c8f3449172e66c878de",
+      "gz": false,
+      "b": "5740bd3bc3176c8f70729c8f3449172e66c878de"
+    },
     "friendRequests.json": {
       "h": "g:8ba8ff037a94a7ee0f87cb3fe8abca95bba85979",
       "gz": false,
@@ -262,11 +267,6 @@
       "h": "g:fbdea9d1d5887f8f1fbe10460420ade7d1c05229",
       "gz": false,
       "b": "fbdea9d1d5887f8f1fbe10460420ade7d1c05229"
-    },
-    "_localStorage.json": {
-      "h": "g:11a463ebfd4696c011d82c3fdc9111b7f0dc89bc",
-      "gz": false,
-      "b": "11a463ebfd4696c011d82c3fdc9111b7f0dc89bc"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -288,10 +288,10 @@
       "gz": false,
       "b": "861324e7dfeac7650447d63e14e3d5c787556e64"
     },
-    "characters.json": {
-      "h": "g:5740bd3bc3176c8f70729c8f3449172e66c878de",
+    "_localStorage.json": {
+      "h": "g:11955af854a3ccb235779da7bc2fa6c7fb863a2c",
       "gz": false,
-      "b": "5740bd3bc3176c8f70729c8f3449172e66c878de"
+      "b": "11955af854a3ccb235779da7bc2fa6c7fb863a2c"
     },
     "userPosts.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -299,9 +299,9 @@
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "userState.json": {
-      "h": "g:b534e542640badb719eb2857c7b16bf38bb5de2e",
+      "h": "g:a051a7c566bdbf5275177a6c927a834b29825e72",
       "gz": false,
-      "b": "b534e542640badb719eb2857c7b16bf38bb5de2e"
+      "b": "a051a7c566bdbf5275177a6c927a834b29825e72"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -368,15 +368,15 @@
       "gz": false,
       "b": "29d962c7eb3f8b9146007462bec24f62834170d7"
     },
-    "chatSettings.json": {
-      "h": "g:93d23b69521f60464812dfc9ae82da643106070f",
-      "gz": false,
-      "b": "93d23b69521f60464812dfc9ae82da643106070f"
-    },
     "messages_chunk_13.json": {
       "h": "g:b36600b687b63f2f70e19e5fd4709434df2b4bb9",
       "gz": false,
       "b": "b36600b687b63f2f70e19e5fd4709434df2b4bb9"
+    },
+    "chatSettings.json": {
+      "h": "g:563e27105b12db9612871817d23dc989d3e3fb31",
+      "gz": false,
+      "b": "563e27105b12db9612871817d23dc989d3e3fb31"
     },
     "favorites.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -509,14 +509,14 @@
       "b": "9dfd74596b497882bbc2778a95fd09f9fc1a645b"
     },
     "messages_chunk_14.json": {
-      "h": "g:a219d55cb8bd8f7d148898e43b3dc6e89c6b1959",
+      "h": "g:df712964cb33ec4573d85d9a480ff19a4624c204",
       "gz": false,
-      "b": "a219d55cb8bd8f7d148898e43b3dc6e89c6b1959"
+      "b": "df712964cb33ec4573d85d9a480ff19a4624c204"
     },
     "xinsheng.json": {
-      "h": "g:99c57f30f5b8d10bad6dc619580c7f2eea5c59fe",
+      "h": "g:dbbeddaaab354ad6f4cd7fbc2477611b34ba5ea2",
       "gz": false,
-      "b": "99c57f30f5b8d10bad6dc619580c7f2eea5c59fe"
+      "b": "dbbeddaaab354ad6f4cd7fbc2477611b34ba5ea2"
     },
     "pomodoroSessions.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -789,9 +789,9 @@
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "xinshengRounds.json": {
-      "h": "g:265dd3bbab15b2600c9b7b2b5cb0ff3d6c00b944",
+      "h": "g:c1317537f66c2f398b306cc902e186630e209055",
       "gz": false,
-      "b": "265dd3bbab15b2600c9b7b2b5cb0ff3d6c00b944"
+      "b": "c1317537f66c2f398b306cc902e186630e209055"
     },
     "commitments.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1139,9 +1139,9 @@
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
     },
     "thinkingStore.json": {
-      "h": "g:f9210d0573ac1e64a596c914ae02fc6561946d48",
+      "h": "g:b97638476723019bf5c901815de6f78a358a5bfa",
       "gz": false,
-      "b": "f9210d0573ac1e64a596c914ae02fc6561946d48"
+      "b": "b97638476723019bf5c901815de6f78a358a5bfa"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

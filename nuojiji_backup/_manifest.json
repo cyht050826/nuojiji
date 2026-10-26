@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1793003012190,
+  "timestamp": 1793003032419,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -358,6 +358,11 @@
       "gz": false,
       "b": "83f85ee9706b3d845317186b6a2477228c3991a0"
     },
+    "chatSettings.json": {
+      "h": "g:81a64112d8c4bd20334040f710d9605af625de83",
+      "gz": false,
+      "b": "81a64112d8c4bd20334040f710d9605af625de83"
+    },
     "messages_chunk_11.json": {
       "h": "g:dfb76c31352d02cd092e3ee634b1915238cf1902",
       "gz": false,
@@ -377,11 +382,6 @@
       "h": "g:9cfddabc1d91f81a010d6edcee1df475c02035c2",
       "gz": false,
       "b": "9cfddabc1d91f81a010d6edcee1df475c02035c2"
-    },
-    "chatSettings.json": {
-      "h": "g:81a64112d8c4bd20334040f710d9605af625de83",
-      "gz": false,
-      "b": "81a64112d8c4bd20334040f710d9605af625de83"
     },
     "messages_chunk_15.json": {
       "h": "g:f983ea197005aa668521279ff429d0040dfe2f8b",

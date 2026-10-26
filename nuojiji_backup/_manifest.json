@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1792979569483,
+  "timestamp": 1792981045646,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -43,7 +43,6 @@
     "xinshengRounds",
     "pomodoroSessions",
     "couplesData",
-    "imageStore",
     "stickerStore",
     "quickReplies",
     "goingOutState",
@@ -122,15 +121,16 @@
     "charBondSpaces",
     "charLifePlans",
     "_migration",
-    "globalSettings"
+    "globalSettings",
+    "imageStore"
   ],
   "chunkedTables": {
     "stickers": 2,
-    "messages": 19,
+    "messages": 20,
     "ttsAudio": 3,
-    "imageStore": 29,
     "stickerStore": 1,
-    "fontStore": 18
+    "fontStore": 18,
+    "imageStore": 29
   },
   "completedTables": {
     "characters": true,
@@ -246,7 +246,8 @@
     "_migration": true
   },
   "skippedTables": [
-    "globalSettings"
+    "globalSettings",
+    "imageStore"
   ],
   "complete": false,
   "lastCompleteAt": 1792654854737,
@@ -258,15 +259,15 @@
       "gz": false,
       "b": "8ba8ff037a94a7ee0f87cb3fe8abca95bba85979"
     },
-    "worldBooks.json": {
-      "h": "g:dc3975996075e7d49992d283eeebf6ebf04c3775",
-      "gz": false,
-      "b": "dc3975996075e7d49992d283eeebf6ebf04c3775"
-    },
     "_localStorage.json": {
-      "h": "g:5a8e46bc40cb71c534e0af055992bbba55c9ff9e",
+      "h": "g:bf0f998318e8d1b932b5198917c5ad6a6777f7ce",
       "gz": false,
-      "b": "5a8e46bc40cb71c534e0af055992bbba55c9ff9e"
+      "b": "bf0f998318e8d1b932b5198917c5ad6a6777f7ce"
+    },
+    "characters.json": {
+      "h": "g:7765cf1092e46fd0cb9584cb59cb437b60e385a6",
+      "gz": false,
+      "b": "7765cf1092e46fd0cb9584cb59cb437b60e385a6"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -288,20 +289,20 @@
       "gz": false,
       "b": "db89c71a207c55939bf426d1e4b626f8e6bda6a3"
     },
-    "characters.json": {
-      "h": "g:cc0d3544afe654e2088ddb28bd0a218ae312fe41",
+    "worldBooks.json": {
+      "h": "g:037abfcef62a4029bd6d6a4f12eca43e10098400",
       "gz": false,
-      "b": "cc0d3544afe654e2088ddb28bd0a218ae312fe41"
-    },
-    "userState.json": {
-      "h": "g:6ff112dc3e7ac72cb296db0fffda579d239d6aaa",
-      "gz": false,
-      "b": "6ff112dc3e7ac72cb296db0fffda579d239d6aaa"
+      "b": "037abfcef62a4029bd6d6a4f12eca43e10098400"
     },
     "userPosts.json": {
       "h": "g:8dca43fa4ef233e7c2bf2c5711259244c435b6fb",
       "gz": false,
       "b": "8dca43fa4ef233e7c2bf2c5711259244c435b6fb"
+    },
+    "userState.json": {
+      "h": "g:93c70c0eff5cadbcc0c95fa5a549c67f32744730",
+      "gz": false,
+      "b": "93c70c0eff5cadbcc0c95fa5a549c67f32744730"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -373,11 +374,6 @@
       "gz": false,
       "b": "191400ff63b36cf8a1fe6590debad2f4a674269d"
     },
-    "chatSettings.json": {
-      "h": "g:f7868da78c852729d7a9ed5453f4437e90aa8ed1",
-      "gz": false,
-      "b": "f7868da78c852729d7a9ed5453f4437e90aa8ed1"
-    },
     "messages_chunk_14.json": {
       "h": "g:0758c17b8252816ae1612972ef3257f7bf8bcf74",
       "gz": false,
@@ -397,6 +393,16 @@
       "h": "g:dfcd40237580037b0e1cdaf4392164dc9c6c9bc0",
       "gz": false,
       "b": "dfcd40237580037b0e1cdaf4392164dc9c6c9bc0"
+    },
+    "chatSettings.json": {
+      "h": "g:26914f1a89d28600cf6bce44f409262914ddeac6",
+      "gz": false,
+      "b": "26914f1a89d28600cf6bce44f409262914ddeac6"
+    },
+    "messages_chunk_18.json": {
+      "h": "g:c3db9810a01081657ab3b79476b4959ca2108b44",
+      "gz": false,
+      "b": "c3db9810a01081657ab3b79476b4959ca2108b44"
     },
     "favorites.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -528,175 +534,30 @@
       "gz": false,
       "b": "9dfd74596b497882bbc2778a95fd09f9fc1a645b"
     },
-    "messages_chunk_18.json": {
-      "h": "g:0eeac664bd7c1c1673a3d825d96003d50fa31739",
-      "gz": false,
-      "b": "0eeac664bd7c1c1673a3d825d96003d50fa31739"
-    },
     "xinsheng.json": {
-      "h": "g:d3794a90af7267afa65330a803754aa1ecf30fba",
+      "h": "g:b11d76977a5bc714bcca3195647ba62a803a472a",
       "gz": false,
-      "b": "d3794a90af7267afa65330a803754aa1ecf30fba"
+      "b": "b11d76977a5bc714bcca3195647ba62a803a472a"
+    },
+    "messages_chunk_19.json": {
+      "h": "g:900f28ddd74b64751c3c87a14a6bdbe884cfdcd5",
+      "gz": false,
+      "b": "900f28ddd74b64751c3c87a14a6bdbe884cfdcd5"
     },
     "pomodoroSessions.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "couplesData.json": {
+      "h": "g:9abf39721f91da696511607905f150cfd7380dfa",
+      "gz": false,
+      "b": "9abf39721f91da696511607905f150cfd7380dfa"
+    },
     "xinshengRounds.json": {
-      "h": "g:080d741dfd482946c68df753443a2441ab5c54fe",
+      "h": "g:edc4e602fd27db555d9f86ce88dbfbf570a13408",
       "gz": false,
-      "b": "080d741dfd482946c68df753443a2441ab5c54fe"
-    },
-    "imageStore_chunk_0.json": {
-      "h": "g:51924cfc589cd8443e9c82e9cfcb8663a4fe500f",
-      "gz": false,
-      "b": "51924cfc589cd8443e9c82e9cfcb8663a4fe500f"
-    },
-    "imageStore_chunk_1.json": {
-      "h": "g:ff3a7d5c15024b413ab4bc1522b981d85e433caa",
-      "gz": false,
-      "b": "ff3a7d5c15024b413ab4bc1522b981d85e433caa"
-    },
-    "imageStore_chunk_2.json": {
-      "h": "g:594daf706c0035fb9712cd1cba29cde83d22be18",
-      "gz": false,
-      "b": "594daf706c0035fb9712cd1cba29cde83d22be18"
-    },
-    "imageStore_chunk_3.json": {
-      "h": "g:a022ce5f2d71e22de559ad1636960232a84338d4",
-      "gz": false,
-      "b": "a022ce5f2d71e22de559ad1636960232a84338d4"
-    },
-    "imageStore_chunk_4.json": {
-      "h": "g:43ba795d5e82394af88dc8e62b4c60ed5ccedb03",
-      "gz": false,
-      "b": "43ba795d5e82394af88dc8e62b4c60ed5ccedb03"
-    },
-    "imageStore_chunk_5.json": {
-      "h": "g:8743cd80d0fdd73ba44354c96d39741fa565e109",
-      "gz": false,
-      "b": "8743cd80d0fdd73ba44354c96d39741fa565e109"
-    },
-    "imageStore_chunk_6.json": {
-      "h": "g:6434a5c5be1dea2ed1bf35d457128cb4f48b0fb8",
-      "gz": false,
-      "b": "6434a5c5be1dea2ed1bf35d457128cb4f48b0fb8"
-    },
-    "imageStore_chunk_7.json": {
-      "h": "g:3471c3a37df5e36f09cd2c7b38d135a73a7739a3",
-      "gz": false,
-      "b": "3471c3a37df5e36f09cd2c7b38d135a73a7739a3"
-    },
-    "imageStore_chunk_8.json": {
-      "h": "g:a65e9d2b168272b42121215c30629d3bfa05f2c0",
-      "gz": false,
-      "b": "a65e9d2b168272b42121215c30629d3bfa05f2c0"
-    },
-    "imageStore_chunk_9.json": {
-      "h": "g:e12d9778583a02733f89cf5229a19ed9f6c9b934",
-      "gz": false,
-      "b": "e12d9778583a02733f89cf5229a19ed9f6c9b934"
-    },
-    "imageStore_chunk_10.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_11.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_12.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_13.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_14.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_15.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_16.json": {
-      "h": "g:fee2e0b04cb23b6a1bd4e7b8e5c82dd497501af6",
-      "gz": false,
-      "b": "fee2e0b04cb23b6a1bd4e7b8e5c82dd497501af6"
-    },
-    "imageStore_chunk_17.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "imageStore_chunk_18.json": {
-      "h": "g:e4ef300e20355011983e6998438e5ac555925e06",
-      "gz": false,
-      "b": "e4ef300e20355011983e6998438e5ac555925e06"
-    },
-    "imageStore_chunk_19.json": {
-      "h": "g:4a3d1bfbc97386ab56f82ecd48e2513bb401031a",
-      "gz": false,
-      "b": "4a3d1bfbc97386ab56f82ecd48e2513bb401031a"
-    },
-    "imageStore_chunk_20.json": {
-      "h": "g:06b4d9a69190457e39a4bab25943d3988cb29a7f",
-      "gz": false,
-      "b": "06b4d9a69190457e39a4bab25943d3988cb29a7f"
-    },
-    "imageStore_chunk_21.json": {
-      "h": "g:f6b306478ecc494e90687bf9419680419ef92f8d",
-      "gz": false,
-      "b": "f6b306478ecc494e90687bf9419680419ef92f8d"
-    },
-    "imageStore_chunk_22.json": {
-      "h": "g:e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1",
-      "gz": false,
-      "b": "e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1"
-    },
-    "imageStore_chunk_23.json": {
-      "h": "g:02b18abca93e66848842709c04b3a396c9922d3d",
-      "gz": false,
-      "b": "02b18abca93e66848842709c04b3a396c9922d3d"
-    },
-    "imageStore_chunk_24.json": {
-      "h": "g:d67bc9a4bb7bffa16917e231e4bfacca7e9d1500",
-      "gz": false,
-      "b": "d67bc9a4bb7bffa16917e231e4bfacca7e9d1500"
-    },
-    "imageStore_chunk_25.json": {
-      "h": "g:c332722d554bfd75ebc1af7ce14d93461e186557",
-      "gz": false,
-      "b": "c332722d554bfd75ebc1af7ce14d93461e186557"
-    },
-    "imageStore_chunk_26.json": {
-      "h": "g:2208aabeacf8a78155376a0180766081ba55ed91",
-      "gz": false,
-      "b": "2208aabeacf8a78155376a0180766081ba55ed91"
-    },
-    "imageStore_chunk_27.json": {
-      "h": "g:b96302fe457a8dcdb4465f96764475b2fff89958",
-      "gz": false,
-      "b": "b96302fe457a8dcdb4465f96764475b2fff89958"
-    },
-    "imageStore_chunk_28.json": {
-      "h": "g:48040c854cc07ee0272f91823d5588f8f84c6d00",
-      "gz": false,
-      "b": "48040c854cc07ee0272f91823d5588f8f84c6d00"
-    },
-    "stickerStore_chunk_0.json": {
-      "h": "g:e86ec185c2b04e3515bd50c241bcc42ff6391453",
-      "gz": false,
-      "b": "e86ec185c2b04e3515bd50c241bcc42ff6391453"
+      "b": "edc4e602fd27db555d9f86ce88dbfbf570a13408"
     },
     "quickReplies.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -808,15 +669,20 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "regexRules.json": {
-      "h": "g:a56618f604124dbb2f5b85b9d52425d5c93627ac",
+    "stickerStore_chunk_0.json": {
+      "h": "g:ba2814536b42c2e88b21b81358778300483469a0",
       "gz": false,
-      "b": "a56618f604124dbb2f5b85b9d52425d5c93627ac"
+      "b": "ba2814536b42c2e88b21b81358778300483469a0"
     },
     "mcpServers.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "regexRules.json": {
+      "h": "g:6601554a1d0e4dd7cf7eb5371cb3bef2f7f7af80",
+      "gz": false,
+      "b": "6601554a1d0e4dd7cf7eb5371cb3bef2f7f7af80"
     },
     "commitments.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1113,10 +979,10 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "couplesData.json": {
-      "h": "g:9abf39721f91da696511607905f150cfd7380dfa",
+    "thinkingStore.json": {
+      "h": "g:bef73169ff7b7d98000aff717d6e74f835a31de4",
       "gz": false,
-      "b": "9abf39721f91da696511607905f150cfd7380dfa"
+      "b": "bef73169ff7b7d98000aff717d6e74f835a31de4"
     },
     "plugins.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1163,15 +1029,155 @@
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
     },
-    "thinkingStore.json": {
-      "h": "g:62a6c6764d73369e35164ec2ff6124a0f02f441d",
-      "gz": false,
-      "b": "62a6c6764d73369e35164ec2ff6124a0f02f441d"
-    },
     "chatVariables.json": {
-      "h": "g:2d308b3322e6bb8d0fe175a45d6f62c993634b7f",
+      "h": "g:9239bfb848b6def531a8decc3200fff4a14f753f",
       "gz": false,
-      "b": "2d308b3322e6bb8d0fe175a45d6f62c993634b7f"
+      "b": "9239bfb848b6def531a8decc3200fff4a14f753f"
+    },
+    "imageStore_chunk_0.json": {
+      "h": "g:51924cfc589cd8443e9c82e9cfcb8663a4fe500f",
+      "gz": false,
+      "b": "51924cfc589cd8443e9c82e9cfcb8663a4fe500f"
+    },
+    "imageStore_chunk_1.json": {
+      "h": "g:ff3a7d5c15024b413ab4bc1522b981d85e433caa",
+      "gz": false,
+      "b": "ff3a7d5c15024b413ab4bc1522b981d85e433caa"
+    },
+    "imageStore_chunk_2.json": {
+      "h": "g:594daf706c0035fb9712cd1cba29cde83d22be18",
+      "gz": false,
+      "b": "594daf706c0035fb9712cd1cba29cde83d22be18"
+    },
+    "imageStore_chunk_3.json": {
+      "h": "g:a022ce5f2d71e22de559ad1636960232a84338d4",
+      "gz": false,
+      "b": "a022ce5f2d71e22de559ad1636960232a84338d4"
+    },
+    "imageStore_chunk_4.json": {
+      "h": "g:43ba795d5e82394af88dc8e62b4c60ed5ccedb03",
+      "gz": false,
+      "b": "43ba795d5e82394af88dc8e62b4c60ed5ccedb03"
+    },
+    "imageStore_chunk_5.json": {
+      "h": "g:8743cd80d0fdd73ba44354c96d39741fa565e109",
+      "gz": false,
+      "b": "8743cd80d0fdd73ba44354c96d39741fa565e109"
+    },
+    "imageStore_chunk_6.json": {
+      "h": "g:6434a5c5be1dea2ed1bf35d457128cb4f48b0fb8",
+      "gz": false,
+      "b": "6434a5c5be1dea2ed1bf35d457128cb4f48b0fb8"
+    },
+    "imageStore_chunk_7.json": {
+      "h": "g:3471c3a37df5e36f09cd2c7b38d135a73a7739a3",
+      "gz": false,
+      "b": "3471c3a37df5e36f09cd2c7b38d135a73a7739a3"
+    },
+    "imageStore_chunk_8.json": {
+      "h": "g:a65e9d2b168272b42121215c30629d3bfa05f2c0",
+      "gz": false,
+      "b": "a65e9d2b168272b42121215c30629d3bfa05f2c0"
+    },
+    "imageStore_chunk_9.json": {
+      "h": "g:e12d9778583a02733f89cf5229a19ed9f6c9b934",
+      "gz": false,
+      "b": "e12d9778583a02733f89cf5229a19ed9f6c9b934"
+    },
+    "imageStore_chunk_10.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_11.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_12.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_13.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_14.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_15.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_16.json": {
+      "h": "g:fee2e0b04cb23b6a1bd4e7b8e5c82dd497501af6",
+      "gz": false,
+      "b": "fee2e0b04cb23b6a1bd4e7b8e5c82dd497501af6"
+    },
+    "imageStore_chunk_17.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_18.json": {
+      "h": "g:e4ef300e20355011983e6998438e5ac555925e06",
+      "gz": false,
+      "b": "e4ef300e20355011983e6998438e5ac555925e06"
+    },
+    "imageStore_chunk_19.json": {
+      "h": "g:4a3d1bfbc97386ab56f82ecd48e2513bb401031a",
+      "gz": false,
+      "b": "4a3d1bfbc97386ab56f82ecd48e2513bb401031a"
+    },
+    "imageStore_chunk_20.json": {
+      "h": "g:06b4d9a69190457e39a4bab25943d3988cb29a7f",
+      "gz": false,
+      "b": "06b4d9a69190457e39a4bab25943d3988cb29a7f"
+    },
+    "imageStore_chunk_21.json": {
+      "h": "g:f6b306478ecc494e90687bf9419680419ef92f8d",
+      "gz": false,
+      "b": "f6b306478ecc494e90687bf9419680419ef92f8d"
+    },
+    "imageStore_chunk_22.json": {
+      "h": "g:e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1",
+      "gz": false,
+      "b": "e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1"
+    },
+    "imageStore_chunk_23.json": {
+      "h": "g:02b18abca93e66848842709c04b3a396c9922d3d",
+      "gz": false,
+      "b": "02b18abca93e66848842709c04b3a396c9922d3d"
+    },
+    "imageStore_chunk_24.json": {
+      "h": "g:d67bc9a4bb7bffa16917e231e4bfacca7e9d1500",
+      "gz": false,
+      "b": "d67bc9a4bb7bffa16917e231e4bfacca7e9d1500"
+    },
+    "imageStore_chunk_25.json": {
+      "h": "g:c332722d554bfd75ebc1af7ce14d93461e186557",
+      "gz": false,
+      "b": "c332722d554bfd75ebc1af7ce14d93461e186557"
+    },
+    "imageStore_chunk_26.json": {
+      "h": "g:2208aabeacf8a78155376a0180766081ba55ed91",
+      "gz": false,
+      "b": "2208aabeacf8a78155376a0180766081ba55ed91"
+    },
+    "imageStore_chunk_27.json": {
+      "h": "g:b96302fe457a8dcdb4465f96764475b2fff89958",
+      "gz": false,
+      "b": "b96302fe457a8dcdb4465f96764475b2fff89958"
+    },
+    "imageStore_chunk_28.json": {
+      "h": "g:48040c854cc07ee0272f91823d5588f8f84c6d00",
+      "gz": false,
+      "b": "48040c854cc07ee0272f91823d5588f8f84c6d00"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

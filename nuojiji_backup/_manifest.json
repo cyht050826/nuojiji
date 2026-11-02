@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1793597095713,
+  "timestamp": 1793597122743,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -132,7 +132,7 @@
     "xinshengRounds": 2,
     "imageStore": 58,
     "stickerStore": 4,
-    "thinkingStore": 3,
+    "thinkingStore": 2,
     "fontStore": 18
   },
   "completedTables": {
@@ -299,9 +299,9 @@
       "b": "8d50cc68b88feece9b41db7a4753f3a899573f9d"
     },
     "_localStorage.json": {
-      "h": "g:1e5506c36625871f5478d157856b476477d96351",
+      "h": "g:732d601aff0b67d81458c158d1dfe4282911571d",
       "gz": false,
-      "b": "1e5506c36625871f5478d157856b476477d96351"
+      "b": "732d601aff0b67d81458c158d1dfe4282911571d"
     },
     "userPosts.json": {
       "h": "g:38d5272e5c924c116ff4d07512b37ac46392086b",
@@ -309,9 +309,9 @@
       "b": "38d5272e5c924c116ff4d07512b37ac46392086b"
     },
     "userState.json": {
-      "h": "g:2ec28a643a91d219799876031781bf6fff161da3",
+      "h": "g:f3837ab4d3661d1de7d31245d048bd1fe8c1a49d",
       "gz": false,
-      "b": "2ec28a643a91d219799876031781bf6fff161da3"
+      "b": "f3837ab4d3661d1de7d31245d048bd1fe8c1a49d"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -449,9 +449,9 @@
       "b": "3dd25a380b74b39d6a5ec3cc66ce0f7402fcef2c"
     },
     "chatSettings.json": {
-      "h": "g:868102c0771d2a127158050dd2cd46c4d43a370c",
+      "h": "g:ac7d2e05b169a701cc5ee9dc3fbfeb24a59e39cb",
       "gz": false,
-      "b": "868102c0771d2a127158050dd2cd46c4d43a370c"
+      "b": "ac7d2e05b169a701cc5ee9dc3fbfeb24a59e39cb"
     },
     "messages_chunk_27.json": {
       "h": "g:1880e27154ca5e6dd880e33ea212e2f5b59b1164",
@@ -963,6 +963,11 @@
       "gz": false,
       "b": "368237da866e81e9d3199552a384603348c80eca"
     },
+    "xinshengRounds_chunk_0.json": {
+      "h": "g:b577233a1b7a2bee06a37e563ffddbc6d3976e4c",
+      "gz": false,
+      "b": "b577233a1b7a2bee06a37e563ffddbc6d3976e4c"
+    },
     "imageStore_chunk_39.json": {
       "h": "g:58322a8bff5a1fce62a336bbf1ae9c4c53bd4489",
       "gz": false,
@@ -1203,16 +1208,6 @@
       "gz": false,
       "b": "5033619fd919b6dc86b939b626ea713b854117e9"
     },
-    "xinshengRounds_chunk_0.json": {
-      "h": "g:b577233a1b7a2bee06a37e563ffddbc6d3976e4c",
-      "gz": false,
-      "b": "b577233a1b7a2bee06a37e563ffddbc6d3976e4c"
-    },
-    "thinkingStore_chunk_1.json": {
-      "h": "g:80225f74356762dcfbab35886d59923ad32eaf39",
-      "gz": false,
-      "b": "80225f74356762dcfbab35886d59923ad32eaf39"
-    },
     "commitments.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -1303,11 +1298,6 @@
       "gz": false,
       "b": "476edbabd5ff67862f7c7b9dcad95c760b221473"
     },
-    "thinkingStore_chunk_2.json": {
-      "h": "g:5008c69b0b9690e3a304f726efa242a05100738f",
-      "gz": false,
-      "b": "5008c69b0b9690e3a304f726efa242a05100738f"
-    },
     "fontStore_chunk_12.json": {
       "h": "g:b18ac723caaea361d6903708092b28ed4c5eafb5",
       "gz": false,
@@ -1377,6 +1367,11 @@
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "thinkingStore_chunk_1.json": {
+      "h": "g:ffd728ac8cf15fe633698e06c5ef808a6cee00ac",
+      "gz": false,
+      "b": "ffd728ac8cf15fe633698e06c5ef808a6cee00ac"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",

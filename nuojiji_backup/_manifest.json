@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1793864443151,
+  "timestamp": 1793876816436,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -126,7 +126,7 @@
   ],
   "chunkedTables": {
     "stickers": 4,
-    "messages": 57,
+    "messages": 58,
     "roleStickers": 3,
     "ttsAudio": 3,
     "xinshengRounds": 2,
@@ -263,15 +263,10 @@
       "gz": false,
       "b": "46c753b4dc123228c01a6d10126a8a490af960a4"
     },
-    "characters.json": {
-      "h": "g:895d90d478b7c66e65f799b08c5ef31748cd0a2f",
-      "gz": false,
-      "b": "895d90d478b7c66e65f799b08c5ef31748cd0a2f"
-    },
     "_localStorage.json": {
-      "h": "g:92b3ba48d0a38f073406d3a75b4daa66fe118b5d",
+      "h": "g:489886bfa1c2c691c7488b29a3365ca4f8ebc0b7",
       "gz": false,
-      "b": "92b3ba48d0a38f073406d3a75b4daa66fe118b5d"
+      "b": "489886bfa1c2c691c7488b29a3365ca4f8ebc0b7"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -282,6 +277,11 @@
       "h": "g:d72b6343c8b4799603c608819f0b5c940be4b81b",
       "gz": false,
       "b": "d72b6343c8b4799603c608819f0b5c940be4b81b"
+    },
+    "characters.json": {
+      "h": "g:c61f7fcbb9ac2ef2f513b3a4de9f8cdf7f11f39c",
+      "gz": false,
+      "b": "c61f7fcbb9ac2ef2f513b3a4de9f8cdf7f11f39c"
     },
     "stickers_chunk_2.json": {
       "h": "g:48214e6df22cb19d4fbf3b785f06a496d16beb01",
@@ -308,10 +308,10 @@
       "gz": false,
       "b": "3f5f149b49b27564d7beb78d2214199913870735"
     },
-    "userState.json": {
-      "h": "g:34fe2c0a87e3eb76f54304386c00527f50a0cbd6",
+    "chatSettings.json": {
+      "h": "g:008779ea1ca7beb05a20518291b71a588c2f6b87",
       "gz": false,
-      "b": "34fe2c0a87e3eb76f54304386c00527f50a0cbd6"
+      "b": "008779ea1ca7beb05a20518291b71a588c2f6b87"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -362,6 +362,11 @@
       "h": "g:9dcc9b1ad04e25d8fbb87877d3bf5853834fe3bf",
       "gz": false,
       "b": "9dcc9b1ad04e25d8fbb87877d3bf5853834fe3bf"
+    },
+    "userState.json": {
+      "h": "g:ad21a5a97424bef258dd9b1c3e2eb5051a9dd052",
+      "gz": false,
+      "b": "ad21a5a97424bef258dd9b1c3e2eb5051a9dd052"
     },
     "messages_chunk_10.json": {
       "h": "g:3999bff69415000dd1cb456df8abf1c295a56a16",
@@ -442,11 +447,6 @@
       "h": "g:c40f99a6d634cfb337c99052ef997270063e215e",
       "gz": false,
       "b": "c40f99a6d634cfb337c99052ef997270063e215e"
-    },
-    "chatSettings.json": {
-      "h": "g:008779ea1ca7beb05a20518291b71a588c2f6b87",
-      "gz": false,
-      "b": "008779ea1ca7beb05a20518291b71a588c2f6b87"
     },
     "messages_chunk_26.json": {
       "h": "g:3dd25a380b74b39d6a5ec3cc66ce0f7402fcef2c",
@@ -598,20 +598,25 @@
       "gz": false,
       "b": "bd761e4adf99ea7fe2e88aaef3f05947f9a44088"
     },
+    "messages_chunk_56.json": {
+      "h": "g:cf98e0b95e94524dae1a1531e65c20642c4df065",
+      "gz": false,
+      "b": "cf98e0b95e94524dae1a1531e65c20642c4df065"
+    },
     "favorites.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "messages_chunk_56.json": {
-      "h": "g:02dbe20122e6d9386fa0b45a031a2394d16b86e5",
+    "messages_chunk_57.json": {
+      "h": "g:ac936caca4c2846ffb3fa3047f000b82c4168ef5",
       "gz": false,
-      "b": "02dbe20122e6d9386fa0b45a031a2394d16b86e5"
+      "b": "ac936caca4c2846ffb3fa3047f000b82c4168ef5"
     },
     "memory.json": {
-      "h": "g:841cfa2a1b66ebbdec3b0a0da33a054812687d80",
+      "h": "g:694d5ebd5cb33c5761080d8b17cacf48fe610b51",
       "gz": false,
-      "b": "841cfa2a1b66ebbdec3b0a0da33a054812687d80"
+      "b": "694d5ebd5cb33c5761080d8b17cacf48fe610b51"
     },
     "callLogs.json": {
       "h": "g:b308a7ebd2453c3cf82a364f0d8cb862297c1dd6",
@@ -739,19 +744,19 @@
       "b": "3be413313a30b89d2bc32dccc1652f9fedc9417e"
     },
     "summaryEntries.json": {
-      "h": "g:f49a3fdb996996e6a22afd5eb9c910b27a08ad24",
+      "h": "g:3e5008910259a6598bd01c6598a4c065f6d39c9c",
       "gz": false,
-      "b": "f49a3fdb996996e6a22afd5eb9c910b27a08ad24"
+      "b": "3e5008910259a6598bd01c6598a4c065f6d39c9c"
+    },
+    "xinsheng.json": {
+      "h": "g:d12037eb9fa42533e2cfc7126fc19d070aff92c2",
+      "gz": false,
+      "b": "d12037eb9fa42533e2cfc7126fc19d070aff92c2"
     },
     "xinshengRounds_chunk_0.json": {
       "h": "g:c4c08e498c46f64d0b661cb8e4de63d4f40723f7",
       "gz": false,
       "b": "c4c08e498c46f64d0b661cb8e4de63d4f40723f7"
-    },
-    "xinsheng.json": {
-      "h": "g:2b24dbd4c69a1780ed601f25be297238e789f548",
-      "gz": false,
-      "b": "2b24dbd4c69a1780ed601f25be297238e789f548"
     },
     "pomodoroSessions.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1048,6 +1053,11 @@
       "gz": false,
       "b": "eab482d08177a925b7692ac745aa74843588d6e3"
     },
+    "xinshengRounds_chunk_1.json": {
+      "h": "g:522b5d4e1dd24166c46dcfa15f299516c7029bc1",
+      "gz": false,
+      "b": "522b5d4e1dd24166c46dcfa15f299516c7029bc1"
+    },
     "imageStore_chunk_57.json": {
       "h": "g:372e426f2dfbd50890749488ae4b04c3136e9217",
       "gz": false,
@@ -1202,11 +1212,6 @@
       "h": "g:5033619fd919b6dc86b939b626ea713b854117e9",
       "gz": false,
       "b": "5033619fd919b6dc86b939b626ea713b854117e9"
-    },
-    "xinshengRounds_chunk_1.json": {
-      "h": "g:b46a54d384c6e6a95c6c049cbe12abec0b2e35b4",
-      "gz": false,
-      "b": "b46a54d384c6e6a95c6c049cbe12abec0b2e35b4"
     },
     "commitments.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1367,11 +1372,6 @@
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "rowFieldItems.json": {
-      "h": "g:6edb592628e54e33b2a76df960e1ad4027885a04",
-      "gz": false,
-      "b": "6edb592628e54e33b2a76df960e1ad4027885a04"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1554,9 +1554,14 @@
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
     },
     "thinkingStore_chunk_1.json": {
-      "h": "g:8b78d0a9bf1562694b5ae6de2f58e5e25e6701af",
+      "h": "g:ca5c626df93e53a4f840fe9f2e43851fa4f40818",
       "gz": false,
-      "b": "8b78d0a9bf1562694b5ae6de2f58e5e25e6701af"
+      "b": "ca5c626df93e53a4f840fe9f2e43851fa4f40818"
+    },
+    "rowFieldItems.json": {
+      "h": "g:dce40b4250050f7e9012e408f55242cc0a411eca",
+      "gz": false,
+      "b": "dce40b4250050f7e9012e408f55242cc0a411eca"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

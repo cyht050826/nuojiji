@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1794017542089,
+  "timestamp": 1794017570241,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -254,14 +254,19 @@
   "inProgress": false,
   "files": {
     "_localStorage.json": {
-      "h": "g:a38235e13d347e3c26c03da23d1e8453902b9f59",
+      "h": "g:f72c63bbc75d7e36078dba1abe92005200aef39d",
       "gz": false,
-      "b": "a38235e13d347e3c26c03da23d1e8453902b9f59"
+      "b": "f72c63bbc75d7e36078dba1abe92005200aef39d"
     },
     "worldBooks.json": {
       "h": "g:290d8d2f2c4c97108043c9dd0b2584ff6de7eb80",
       "gz": false,
       "b": "290d8d2f2c4c97108043c9dd0b2584ff6de7eb80"
+    },
+    "characters.json": {
+      "h": "g:ebb3bdf6ddb429ce28855f844d9661efbf8f10b4",
+      "gz": false,
+      "b": "ebb3bdf6ddb429ce28855f844d9661efbf8f10b4"
     },
     "friendRequests.json": {
       "h": "g:bcd127822c8372cdd548a46603148a27172e53bd",
@@ -277,11 +282,6 @@
       "h": "g:d72b6343c8b4799603c608819f0b5c940be4b81b",
       "gz": false,
       "b": "d72b6343c8b4799603c608819f0b5c940be4b81b"
-    },
-    "characters.json": {
-      "h": "g:ebb3bdf6ddb429ce28855f844d9661efbf8f10b4",
-      "gz": false,
-      "b": "ebb3bdf6ddb429ce28855f844d9661efbf8f10b4"
     },
     "stickers_chunk_2.json": {
       "h": "g:48214e6df22cb19d4fbf3b785f06a496d16beb01",

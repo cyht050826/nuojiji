@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1794586037240,
+  "timestamp": 1794622777745,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -126,7 +126,7 @@
   ],
   "chunkedTables": {
     "stickers": 4,
-    "messages": 90,
+    "messages": 91,
     "summaryEntries": 3,
     "roleStickers": 3,
     "ttsAudio": 3,
@@ -253,11 +253,6 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
-    "characters.json": {
-      "h": "g:931c038882872a9c04d6d6fad6486752800fbe71",
-      "gz": false,
-      "b": "931c038882872a9c04d6d6fad6486752800fbe71"
-    },
     "friendRequests.json": {
       "h": "g:abfe37829c7bc9d9e36869bf1b7dcfd968d5d2f1",
       "gz": false,
@@ -267,6 +262,11 @@
       "h": "g:a5b9d8e0ee2d2bbff7b0ccba25c57b5c5e440c4e",
       "gz": false,
       "b": "a5b9d8e0ee2d2bbff7b0ccba25c57b5c5e440c4e"
+    },
+    "_localStorage.json": {
+      "h": "g:4420b164b915a8ec6d0b2d240689b04e1859d9fa",
+      "gz": false,
+      "b": "4420b164b915a8ec6d0b2d240689b04e1859d9fa"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -298,10 +298,10 @@
       "gz": false,
       "b": "cf45155e12e0c0c4eff7dec562194d9cba217c8f"
     },
-    "_localStorage.json": {
-      "h": "g:c2e926de9a360d4a6b3fe637732478d489c130f4",
+    "characters.json": {
+      "h": "g:56524834879c4c99612ac47bd3dea64446043a8e",
       "gz": false,
-      "b": "c2e926de9a360d4a6b3fe637732478d489c130f4"
+      "b": "56524834879c4c99612ac47bd3dea64446043a8e"
     },
     "userPosts.json": {
       "h": "g:3f5f149b49b27564d7beb78d2214199913870735",
@@ -309,9 +309,9 @@
       "b": "3f5f149b49b27564d7beb78d2214199913870735"
     },
     "userState.json": {
-      "h": "g:5a89356d587094dede47ba6754f4491a1f6f33dc",
+      "h": "g:fea39b3619bbdb5b712fa18efd16d7decae8a252",
       "gz": false,
-      "b": "5a89356d587094dede47ba6754f4491a1f6f33dc"
+      "b": "fea39b3619bbdb5b712fa18efd16d7decae8a252"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -433,11 +433,6 @@
       "gz": false,
       "b": "1880e27154ca5e6dd880e33ea212e2f5b59b1164"
     },
-    "chatSettings.json": {
-      "h": "g:8821acf52c768f9cf47d10a4a71e4a7c1a17d6a6",
-      "gz": false,
-      "b": "8821acf52c768f9cf47d10a4a71e4a7c1a17d6a6"
-    },
     "messages_chunk_24.json": {
       "h": "g:dbc9da8425034164e82f5fc6622f7211450e3f6d",
       "gz": false,
@@ -462,6 +457,11 @@
       "h": "g:b421e8b5a1573e32e566642b0de01e900dfabe29",
       "gz": false,
       "b": "b421e8b5a1573e32e566642b0de01e900dfabe29"
+    },
+    "chatSettings.json": {
+      "h": "g:b029f08f22d2732a35b93ee444997ee9f6c804bb",
+      "gz": false,
+      "b": "b029f08f22d2732a35b93ee444997ee9f6c804bb"
     },
     "messages_chunk_29.json": {
       "h": "g:50a2889e3439e39f755188aa3f28e733273ff4a3",
@@ -763,25 +763,30 @@
       "gz": false,
       "b": "8296f14da324f75c6c2326dee1bac9fb2cdac99f"
     },
+    "messages_chunk_89.json": {
+      "h": "g:2065e874eca073a791d55606bc73bfb6e3bbbf53",
+      "gz": false,
+      "b": "2065e874eca073a791d55606bc73bfb6e3bbbf53"
+    },
     "favorites.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "messages_chunk_89.json": {
-      "h": "g:f7b6779703441010a44153ef02b8cc9fe32f80aa",
+    "messages_chunk_90.json": {
+      "h": "g:baf0bb3a172e6badbebe2bacf245d224e0d8b776",
       "gz": false,
-      "b": "f7b6779703441010a44153ef02b8cc9fe32f80aa"
-    },
-    "summaryEntries_chunk_0.json": {
-      "h": "g:f2ac1fb2fd9a6af594a908cf2a07e054e04b4145",
-      "gz": false,
-      "b": "f2ac1fb2fd9a6af594a908cf2a07e054e04b4145"
+      "b": "baf0bb3a172e6badbebe2bacf245d224e0d8b776"
     },
     "memory.json": {
-      "h": "g:4a0784a4483280ce8df790442806f52fc2b8d134",
+      "h": "g:e13b9d5dd56029df7434d0965d0c5d5eb1db3eb0",
       "gz": false,
-      "b": "4a0784a4483280ce8df790442806f52fc2b8d134"
+      "b": "e13b9d5dd56029df7434d0965d0c5d5eb1db3eb0"
+    },
+    "summaryEntries_chunk_0.json": {
+      "h": "g:ec5b17930bcfb11e6d2b3f9beacf721bda9a9667",
+      "gz": false,
+      "b": "ec5b17930bcfb11e6d2b3f9beacf721bda9a9667"
     },
     "summaryEntries_chunk_2.json": {
       "h": "g:ca43a7a90274c950eff70d0e1ad41c8fccd26c72",
@@ -914,19 +919,14 @@
       "b": "f41f02d3b257bf220e9d9e3a8150c2862abc9c80"
     },
     "summaryEntries_chunk_1.json": {
-      "h": "g:88b6a17366a722176be7218fa928ffe6cce5b732",
+      "h": "g:38d32bf57846092fb0f633aeeb868da435005c4f",
       "gz": false,
-      "b": "88b6a17366a722176be7218fa928ffe6cce5b732"
+      "b": "38d32bf57846092fb0f633aeeb868da435005c4f"
     },
     "xinsheng.json": {
-      "h": "g:292d75c9fbd5323142e943798992daac3d491e0f",
+      "h": "g:33f701709d998d0d79f4ca5cbaf17f0855dec657",
       "gz": false,
-      "b": "292d75c9fbd5323142e943798992daac3d491e0f"
-    },
-    "xinshengRounds_chunk_0.json": {
-      "h": "g:36246347faf6a670dc4b5dd17ac7791af3e19bbe",
-      "gz": false,
-      "b": "36246347faf6a670dc4b5dd17ac7791af3e19bbe"
+      "b": "33f701709d998d0d79f4ca5cbaf17f0855dec657"
     },
     "xinshengRounds_chunk_2.json": {
       "h": "g:44f53955d3ca1a7507f41f60bc5b3bce11a34bca",
@@ -1057,6 +1057,11 @@
       "h": "g:e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1",
       "gz": false,
       "b": "e73182a621a7e7b8a9f6290ea625cadf7b6c0dc1"
+    },
+    "xinshengRounds_chunk_0.json": {
+      "h": "g:3193817996bf17a3e43eb529cef342d6d2d91e46",
+      "gz": false,
+      "b": "3193817996bf17a3e43eb529cef342d6d2d91e46"
     },
     "imageStore_chunk_23.json": {
       "h": "g:02b18abca93e66848842709c04b3a396c9922d3d",
@@ -1388,15 +1393,20 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "xinshengRounds_chunk_1.json": {
+      "h": "g:91a63159c57e82818a154d2ff122966d4fd914ad",
+      "gz": false,
+      "b": "91a63159c57e82818a154d2ff122966d4fd914ad"
+    },
     "thinkingStore_chunk_0.json": {
       "h": "g:c6a211e993d31c0d6c452ac8439f34e6b0db22fe",
       "gz": false,
       "b": "c6a211e993d31c0d6c452ac8439f34e6b0db22fe"
     },
-    "xinshengRounds_chunk_1.json": {
-      "h": "g:43d2ded8f3a1681ab5127a9d22603205591f6756",
+    "thinkingStore_chunk_1.json": {
+      "h": "g:4d6db650d8a9416da315a0691a525dd60f208379",
       "gz": false,
-      "b": "43d2ded8f3a1681ab5127a9d22603205591f6756"
+      "b": "4d6db650d8a9416da315a0691a525dd60f208379"
     },
     "commitments.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1559,9 +1569,9 @@
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "thinkingStore_chunk_2.json": {
-      "h": "g:560e8b3e3e45f3d7b77edf7bbb7e083e8513e649",
+      "h": "g:3787a0931cc91562d55b277885d67b3dce9226c8",
       "gz": false,
-      "b": "560e8b3e3e45f3d7b77edf7bbb7e083e8513e649"
+      "b": "3787a0931cc91562d55b277885d67b3dce9226c8"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1693,10 +1703,10 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "thinkingStore_chunk_1.json": {
-      "h": "g:4d6db650d8a9416da315a0691a525dd60f208379",
+    "chatVariables.json": {
+      "h": "g:a0304c992e3de1c650a489163a7ee64dc72f1baf",
       "gz": false,
-      "b": "4d6db650d8a9416da315a0691a525dd60f208379"
+      "b": "a0304c992e3de1c650a489163a7ee64dc72f1baf"
     },
     "plugins.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1743,15 +1753,10 @@
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
     },
-    "chatVariables.json": {
-      "h": "g:a0304c992e3de1c650a489163a7ee64dc72f1baf",
-      "gz": false,
-      "b": "a0304c992e3de1c650a489163a7ee64dc72f1baf"
-    },
     "rowFieldItems_chunk_0.json": {
-      "h": "g:a4304a5b83c1c8c69a22634c67399c500a2e16b2",
+      "h": "g:d36b19b2f150f86a2ea7158576ebba49c4ee04ff",
       "gz": false,
-      "b": "a4304a5b83c1c8c69a22634c67399c500a2e16b2"
+      "b": "d36b19b2f150f86a2ea7158576ebba49c4ee04ff"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

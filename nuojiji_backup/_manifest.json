@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1794795661980,
+  "timestamp": 1794795692981,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -126,7 +126,7 @@
   ],
   "chunkedTables": {
     "stickers": 4,
-    "messages": 100,
+    "messages": 101,
     "summaryEntries": 3,
     "roleStickers": 3,
     "ttsAudio": 3,
@@ -253,6 +253,11 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
+    "characters.json": {
+      "h": "g:2ad93abdbf14ed65462b8939b14ee17ca5112ad7",
+      "gz": false,
+      "b": "2ad93abdbf14ed65462b8939b14ee17ca5112ad7"
+    },
     "friendRequests.json": {
       "h": "g:e66f34eb08d71fbf4232769db733e9e113a05966",
       "gz": false,
@@ -264,14 +269,9 @@
       "b": "109f7611eff9069a71e55df50ed6ba810d999f74"
     },
     "_localStorage.json": {
-      "h": "g:dcfc0dc615c30afe2e0a1571f65c81a3070acfc6",
+      "h": "g:a81b2c2f1403ce69f33396cf60621f4894d406c0",
       "gz": false,
-      "b": "dcfc0dc615c30afe2e0a1571f65c81a3070acfc6"
-    },
-    "characters.json": {
-      "h": "g:2ad93abdbf14ed65462b8939b14ee17ca5112ad7",
-      "gz": false,
-      "b": "2ad93abdbf14ed65462b8939b14ee17ca5112ad7"
+      "b": "a81b2c2f1403ce69f33396cf60621f4894d406c0"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -308,10 +308,10 @@
       "gz": false,
       "b": "3f5f149b49b27564d7beb78d2214199913870735"
     },
-    "chatSettings.json": {
-      "h": "g:3daf29c3fc443538606e4a984e98fd7c62314e59",
+    "userState.json": {
+      "h": "g:0c4be26775e25b3d1697c8aee2e809ab50839a82",
       "gz": false,
-      "b": "3daf29c3fc443538606e4a984e98fd7c62314e59"
+      "b": "0c4be26775e25b3d1697c8aee2e809ab50839a82"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -322,11 +322,6 @@
       "h": "g:ed0455050f5549d377e2f5bd8bc0a8e424580c6b",
       "gz": false,
       "b": "ed0455050f5549d377e2f5bd8bc0a8e424580c6b"
-    },
-    "userState.json": {
-      "h": "g:1e3ca5fd97dabb7a126467a512602dcb09e3361a",
-      "gz": false,
-      "b": "1e3ca5fd97dabb7a126467a512602dcb09e3361a"
     },
     "messages_chunk_2.json": {
       "h": "g:5be8397f30c249f7a0a7805223e54aece4bf55de",
@@ -437,6 +432,11 @@
       "h": "g:1880e27154ca5e6dd880e33ea212e2f5b59b1164",
       "gz": false,
       "b": "1880e27154ca5e6dd880e33ea212e2f5b59b1164"
+    },
+    "chatSettings.json": {
+      "h": "g:b913721600d216c07bc370abcab2d4fe5d57fbd8",
+      "gz": false,
+      "b": "b913721600d216c07bc370abcab2d4fe5d57fbd8"
     },
     "messages_chunk_24.json": {
       "h": "g:dbc9da8425034164e82f5fc6622f7211450e3f6d",
@@ -813,20 +813,30 @@
       "gz": false,
       "b": "2b9d0be4d8c3414463f018ff6b05997164834fd8"
     },
-    "favorites.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
     "messages_chunk_99.json": {
       "h": "g:00f6a0a82526de98926e52ad4f8afc83d978503e",
       "gz": false,
       "b": "00f6a0a82526de98926e52ad4f8afc83d978503e"
     },
+    "favorites.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
     "memory.json": {
       "h": "g:3dbc9d934da45bed37b4d62a6b390175a24909f5",
       "gz": false,
       "b": "3dbc9d934da45bed37b4d62a6b390175a24909f5"
+    },
+    "summaryEntries_chunk_0.json": {
+      "h": "g:e79983745f295e550d61ee876825d15890469e84",
+      "gz": false,
+      "b": "e79983745f295e550d61ee876825d15890469e84"
+    },
+    "messages_chunk_100.json": {
+      "h": "g:57dc2c023d50627e5bbb7c25a16fecdd6cc12bf9",
+      "gz": false,
+      "b": "57dc2c023d50627e5bbb7c25a16fecdd6cc12bf9"
     },
     "summaryEntries_chunk_1.json": {
       "h": "g:01b8fa62c879acfbf3017b3dffa096c4a974b325",
@@ -963,15 +973,15 @@
       "gz": false,
       "b": "f41f02d3b257bf220e9d9e3a8150c2862abc9c80"
     },
-    "summaryEntries_chunk_0.json": {
-      "h": "g:e79983745f295e550d61ee876825d15890469e84",
-      "gz": false,
-      "b": "e79983745f295e550d61ee876825d15890469e84"
-    },
     "xinsheng.json": {
       "h": "g:9967ba338ff494987fb88d1757673a8b0c94f1a5",
       "gz": false,
       "b": "9967ba338ff494987fb88d1757673a8b0c94f1a5"
+    },
+    "xinshengRounds_chunk_0.json": {
+      "h": "g:1623066524c092050294b1bcb87fff38eb55a85b",
+      "gz": false,
+      "b": "1623066524c092050294b1bcb87fff38eb55a85b"
     },
     "xinshengRounds_chunk_1.json": {
       "h": "g:bc8232fc89090a0f0c2326312ad67d9ecec9d136",
@@ -1222,11 +1232,6 @@
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "xinshengRounds_chunk_0.json": {
-      "h": "g:1623066524c092050294b1bcb87fff38eb55a85b",
-      "gz": false,
-      "b": "1623066524c092050294b1bcb87fff38eb55a85b"
     },
     "imageStore_chunk_46.json": {
       "h": "g:f10b20c6ff5ff3a225e68049f90390dc7f062dd1",
@@ -1634,9 +1639,14 @@
       "b": "dda385844fb62d6f2ce813816a39879608b14f29"
     },
     "thinkingStore_chunk_2.json": {
-      "h": "g:25d517d5cfbfa6736ab136cadaf763f62fcd3f3d",
+      "h": "g:c8dd02cf975a7587cece0bc01c597b8785eaa8ad",
       "gz": false,
-      "b": "25d517d5cfbfa6736ab136cadaf763f62fcd3f3d"
+      "b": "c8dd02cf975a7587cece0bc01c597b8785eaa8ad"
+    },
+    "rowFieldItems_chunk_1.json": {
+      "h": "g:30cb7ae9bbcbeade7edd064bbd5ec3380aef4ccb",
+      "gz": false,
+      "b": "30cb7ae9bbcbeade7edd064bbd5ec3380aef4ccb"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1817,11 +1827,6 @@
       "h": "g:53e9700a7b7dbcf06568d6f1f4be03fb5be72f74",
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
-    },
-    "rowFieldItems_chunk_1.json": {
-      "h": "g:30cb7ae9bbcbeade7edd064bbd5ec3380aef4ccb",
-      "gz": false,
-      "b": "30cb7ae9bbcbeade7edd064bbd5ec3380aef4ccb"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1794971051758,
+  "timestamp": 1794971083147,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -269,9 +269,9 @@
       "b": "109f7611eff9069a71e55df50ed6ba810d999f74"
     },
     "_localStorage.json": {
-      "h": "g:9e40422f7058cfcbc371670bed379591274e131e",
+      "h": "g:15b9ab5431a9fcc68cc27507d253f885a81b33ab",
       "gz": false,
-      "b": "9e40422f7058cfcbc371670bed379591274e131e"
+      "b": "15b9ab5431a9fcc68cc27507d253f885a81b33ab"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",

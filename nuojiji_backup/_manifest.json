@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1795006526491,
+  "timestamp": 1795006572648,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -131,7 +131,7 @@
     "roleStickers": 3,
     "ttsAudio": 3,
     "xinshengRounds": 3,
-    "imageStore": 65,
+    "imageStore": 66,
     "stickerStore": 4,
     "thinkingStore": 3,
     "fontStore": 18,
@@ -253,6 +253,11 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
+    "characters.json": {
+      "h": "g:cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b",
+      "gz": false,
+      "b": "cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b"
+    },
     "friendRequests.json": {
       "h": "g:5b75dc017cf48185218ccced28bd985b77833c6b",
       "gz": false,
@@ -264,14 +269,9 @@
       "b": "9c2f982628153ea8aba950074776dabeae99a81b"
     },
     "_localStorage.json": {
-      "h": "g:dcc9dcd39da60d10a5e8375316966e841dc68048",
+      "h": "g:5bb50f5d312c37590f0464c0700b55d935c144ae",
       "gz": false,
-      "b": "dcc9dcd39da60d10a5e8375316966e841dc68048"
-    },
-    "characters.json": {
-      "h": "g:cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b",
-      "gz": false,
-      "b": "cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b"
+      "b": "5bb50f5d312c37590f0464c0700b55d935c144ae"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -1354,9 +1354,9 @@
       "b": "9d14b12cecf20e0640e1067bc695ed5322d1572e"
     },
     "imageStore_chunk_64.json": {
-      "h": "g:2b6d70f8684bc8df469d134885533daf515ba726",
+      "h": "g:7b7025f11b393f8b31f710b29a6908e40059cf66",
       "gz": false,
-      "b": "2b6d70f8684bc8df469d134885533daf515ba726"
+      "b": "7b7025f11b393f8b31f710b29a6908e40059cf66"
     },
     "stickerStore_chunk_0.json": {
       "h": "g:f2fd040b8ad7260b88115b112d349effce592219",
@@ -1562,6 +1562,11 @@
       "h": "g:ef67a4bb3a52e732b5c11adaa99e1bf410c23a89",
       "gz": false,
       "b": "ef67a4bb3a52e732b5c11adaa99e1bf410c23a89"
+    },
+    "imageStore_chunk_65.json": {
+      "h": "g:e0a448e6f69d4be0a77afd882add3cf0a3daeb30",
+      "gz": false,
+      "b": "e0a448e6f69d4be0a77afd882add3cf0a3daeb30"
     },
     "fontStore_chunk_4.json": {
       "h": "g:2dbbfe29830869ac0aee612ff23a4c7ffe9e2f3f",

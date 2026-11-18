@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1794999927974,
+  "timestamp": 1795006526491,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -253,11 +253,6 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
-    "characters.json": {
-      "h": "g:9f075a9181a9e112b33a2976c83959efbbd6b326",
-      "gz": false,
-      "b": "9f075a9181a9e112b33a2976c83959efbbd6b326"
-    },
     "friendRequests.json": {
       "h": "g:5b75dc017cf48185218ccced28bd985b77833c6b",
       "gz": false,
@@ -269,9 +264,14 @@
       "b": "9c2f982628153ea8aba950074776dabeae99a81b"
     },
     "_localStorage.json": {
-      "h": "g:c444e60ba42f4eb28dd6d11700b13b3f70644f27",
+      "h": "g:dcc9dcd39da60d10a5e8375316966e841dc68048",
       "gz": false,
-      "b": "c444e60ba42f4eb28dd6d11700b13b3f70644f27"
+      "b": "dcc9dcd39da60d10a5e8375316966e841dc68048"
+    },
+    "characters.json": {
+      "h": "g:cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b",
+      "gz": false,
+      "b": "cd2f88bf278ee3da9c30a9cc6817bbe78bb86e2b"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",

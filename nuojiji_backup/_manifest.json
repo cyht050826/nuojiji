@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1795239851159,
+  "timestamp": 1795239979449,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -131,7 +131,7 @@
     "roleStickers": 3,
     "ttsAudio": 3,
     "xinshengRounds": 4,
-    "imageStore": 75,
+    "imageStore": 83,
     "stickerStore": 4,
     "thinkingStore": 4,
     "fontStore": 18,
@@ -253,11 +253,6 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
-    "characters.json": {
-      "h": "g:aa0ccb1e0c64360f496f351dde84a0a6a9137e2e",
-      "gz": false,
-      "b": "aa0ccb1e0c64360f496f351dde84a0a6a9137e2e"
-    },
     "friendRequests.json": {
       "h": "g:eeabb66c85aa4203f8daf45c5fb51fc192471605",
       "gz": false,
@@ -268,10 +263,15 @@
       "gz": false,
       "b": "9c2f982628153ea8aba950074776dabeae99a81b"
     },
-    "_localStorage.json": {
-      "h": "g:dedc67bfae6174afc345596a1998cfc61b4591a2",
+    "characters.json": {
+      "h": "g:32b09e6d64dfd7bf3fb1f8a7441023fa543a0f4c",
       "gz": false,
-      "b": "dedc67bfae6174afc345596a1998cfc61b4591a2"
+      "b": "32b09e6d64dfd7bf3fb1f8a7441023fa543a0f4c"
+    },
+    "_localStorage.json": {
+      "h": "g:52f6798bb22e5ce8e1dc3e8d13d893c73e40ca93",
+      "gz": false,
+      "b": "52f6798bb22e5ce8e1dc3e8d13d893c73e40ca93"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -303,20 +303,15 @@
       "gz": false,
       "b": "c5e851d92c7337ed731e2920a1563794199008fe"
     },
-    "userState.json": {
-      "h": "g:b49910910f0f9158a347c13297ce351b99ef694a",
-      "gz": false,
-      "b": "b49910910f0f9158a347c13297ce351b99ef694a"
-    },
     "userPosts.json": {
       "h": "g:ad289e0fd91460257bf629353122ff783d9ba433",
       "gz": false,
       "b": "ad289e0fd91460257bf629353122ff783d9ba433"
     },
-    "chatSettings.json": {
-      "h": "g:8fb94e0748e2f6b592bc2d82376d98d30455c855",
+    "userState.json": {
+      "h": "g:bafa6418717eaede8533fec0130114caea362f77",
       "gz": false,
-      "b": "8fb94e0748e2f6b592bc2d82376d98d30455c855"
+      "b": "bafa6418717eaede8533fec0130114caea362f77"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -432,6 +427,11 @@
       "h": "g:480d8e10c806f9494facd987c645bec4eb3f31c6",
       "gz": false,
       "b": "480d8e10c806f9494facd987c645bec4eb3f31c6"
+    },
+    "chatSettings.json": {
+      "h": "g:accf17dba123e4e0bc3cef415ab9bef585ae22a1",
+      "gz": false,
+      "b": "accf17dba123e4e0bc3cef415ab9bef585ae22a1"
     },
     "messages_chunk_23.json": {
       "h": "g:1880e27154ca5e6dd880e33ea212e2f5b59b1164",
@@ -1449,29 +1449,59 @@
       "b": "2eb057b5a1cf1c8e6f7a3428b044ed3ba4d911db"
     },
     "imageStore_chunk_69.json": {
-      "h": "g:6c2db1d49011091386ccccd6d5e45a669df13fa5",
+      "h": "g:13add54abe840bef345b03c241d586718b6b2bb2",
       "gz": false,
-      "b": "6c2db1d49011091386ccccd6d5e45a669df13fa5"
+      "b": "13add54abe840bef345b03c241d586718b6b2bb2"
     },
     "imageStore_chunk_70.json": {
-      "h": "g:c60157a9372d0f030af71d933a5d44ec0889b8d4",
+      "h": "g:7d1f18339a31579a0dfe33c9820892a6da15f1bf",
       "gz": false,
-      "b": "c60157a9372d0f030af71d933a5d44ec0889b8d4"
+      "b": "7d1f18339a31579a0dfe33c9820892a6da15f1bf"
     },
     "imageStore_chunk_71.json": {
-      "h": "g:40aebfab14f7b4983de1f0368ff317adbec6b3e4",
+      "h": "g:1b4391695b5a804f13127ba24278d6b3ee8e3c9b",
       "gz": false,
-      "b": "40aebfab14f7b4983de1f0368ff317adbec6b3e4"
+      "b": "1b4391695b5a804f13127ba24278d6b3ee8e3c9b"
     },
     "imageStore_chunk_72.json": {
-      "h": "g:47f67016a4a3b0aab9fc4cddc55a38ee754532a8",
+      "h": "g:1f48d2dd1a339cc9e6e11afb07176551230fc129",
       "gz": false,
-      "b": "47f67016a4a3b0aab9fc4cddc55a38ee754532a8"
+      "b": "1f48d2dd1a339cc9e6e11afb07176551230fc129"
     },
     "imageStore_chunk_73.json": {
-      "h": "g:7e5928c9a03a67408d8fde97e033209d913bbc8b",
+      "h": "g:40b19ee1a79fb9530caaa023f522cb8918151d44",
       "gz": false,
-      "b": "7e5928c9a03a67408d8fde97e033209d913bbc8b"
+      "b": "40b19ee1a79fb9530caaa023f522cb8918151d44"
+    },
+    "imageStore_chunk_74.json": {
+      "h": "g:fde4fc45f9682ae9465a74f558b077a501c80e51",
+      "gz": false,
+      "b": "fde4fc45f9682ae9465a74f558b077a501c80e51"
+    },
+    "imageStore_chunk_75.json": {
+      "h": "g:9cdf00cba5f80127b45a48da65b99d8fc086dc4f",
+      "gz": false,
+      "b": "9cdf00cba5f80127b45a48da65b99d8fc086dc4f"
+    },
+    "imageStore_chunk_76.json": {
+      "h": "g:09279588f5cf3341905e5a6d1ff9adebacd04d30",
+      "gz": false,
+      "b": "09279588f5cf3341905e5a6d1ff9adebacd04d30"
+    },
+    "imageStore_chunk_77.json": {
+      "h": "g:ca1ae9450a512bacce01d7a828423d2167776f76",
+      "gz": false,
+      "b": "ca1ae9450a512bacce01d7a828423d2167776f76"
+    },
+    "imageStore_chunk_79.json": {
+      "h": "g:e9cbaa8b9317f83a083d71275253eb3fda9fe16a",
+      "gz": false,
+      "b": "e9cbaa8b9317f83a083d71275253eb3fda9fe16a"
+    },
+    "imageStore_chunk_78.json": {
+      "h": "g:07656e6a8efe86418837aff93f27070183a82944",
+      "gz": false,
+      "b": "07656e6a8efe86418837aff93f27070183a82944"
     },
     "stickerStore_chunk_0.json": {
       "h": "g:4e9fd1a65f9cb85158ffa17845f1163c2e27491a",
@@ -1698,11 +1728,6 @@
       "gz": false,
       "b": "8f3b105ab063bf9acf510c072e9a1c4cd76dcec1"
     },
-    "imageStore_chunk_74.json": {
-      "h": "g:468e204a1b3d4094a4becee1edaa687ebb22eb6a",
-      "gz": false,
-      "b": "468e204a1b3d4094a4becee1edaa687ebb22eb6a"
-    },
     "fontStore_chunk_7.json": {
       "h": "g:f76c32e754116bedb7d527f9e8098dd3fce0a50f",
       "gz": false,
@@ -1798,10 +1823,20 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "imageStore_chunk_82.json": {
+      "h": "g:07d97945c85df087e948ebc9e830e3b313eaea9f",
+      "gz": false,
+      "b": "07d97945c85df087e948ebc9e830e3b313eaea9f"
+    },
     "rowFieldItems_chunk_0.json": {
       "h": "g:6b59ee2ce1f97c41282b0d9d9dbfc10ef2745b68",
       "gz": false,
       "b": "6b59ee2ce1f97c41282b0d9d9dbfc10ef2745b68"
+    },
+    "imageStore_chunk_81.json": {
+      "h": "g:086df34afc51a1af3525ff1d352ff18b30df86bf",
+      "gz": false,
+      "b": "086df34afc51a1af3525ff1d352ff18b30df86bf"
     },
     "rowFieldItems_chunk_1.json": {
       "h": "g:b62737e97c726499785d52a181629b129cadcba9",
@@ -1987,6 +2022,11 @@
       "h": "g:53e9700a7b7dbcf06568d6f1f4be03fb5be72f74",
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
+    },
+    "imageStore_chunk_80.json": {
+      "h": "g:30ffbc5aad450cb3935bb6e65024d08751ab20a4",
+      "gz": false,
+      "b": "30ffbc5aad450cb3935bb6e65024d08751ab20a4"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",

@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1795659422181,
+  "timestamp": 1795676016463,
   "appVersion": "",
   "source": "auto",
   "device": "app-ios",
@@ -54,7 +54,6 @@
     "jiliPosts",
     "jiliDMs",
     "jiliDMMessages",
-    "mapRasterCache",
     "shareLinkMeta",
     "customGames",
     "customGameSaves",
@@ -88,6 +87,8 @@
     "rowFieldItems",
     "coReadQuotes",
     "coReadTranslations",
+    "coReadTheaters",
+    "charPastStories",
     "tmgSaves",
     "tmgSegments",
     "studyTalks",
@@ -96,6 +97,9 @@
     "studyGoals",
     "studyExams",
     "studyCards",
+    "studyVocabDecks",
+    "studyVocabWords",
+    "studyVocabDays",
     "naiVibeCache",
     "walletTransactions",
     "walletData",
@@ -112,6 +116,7 @@
     "live2dModels",
     "live2dFiles",
     "tachieVariants",
+    "tmFavorites",
     "chatVariables",
     "plugins",
     "avatarFrames",
@@ -120,6 +125,7 @@
     "pluginData",
     "chatSettingsPresets",
     "charBondSpaces",
+    "charSocialLinks",
     "charLifePlans",
     "_migration",
     "globalSettings"
@@ -179,7 +185,6 @@
     "jiliPosts": true,
     "jiliDMs": true,
     "jiliDMMessages": true,
-    "mapRasterCache": true,
     "shareLinkMeta": true,
     "customGames": true,
     "customGameSaves": true,
@@ -210,6 +215,8 @@
     "coReadComments": true,
     "coReadQuotes": true,
     "coReadTranslations": true,
+    "coReadTheaters": true,
+    "charPastStories": true,
     "tmgSaves": true,
     "tmgSegments": true,
     "studyTalks": true,
@@ -218,6 +225,9 @@
     "studyGoals": true,
     "studyExams": true,
     "studyCards": true,
+    "studyVocabDecks": true,
+    "studyVocabWords": true,
+    "studyVocabDays": true,
     "naiVibeCache": true,
     "walletTransactions": true,
     "walletData": true,
@@ -234,6 +244,7 @@
     "live2dModels": true,
     "live2dFiles": true,
     "tachieVariants": true,
+    "tmFavorites": true,
     "chatVariables": true,
     "plugins": true,
     "avatarFrames": true,
@@ -242,6 +253,7 @@
     "pluginData": true,
     "chatSettingsPresets": true,
     "charBondSpaces": true,
+    "charSocialLinks": true,
     "charLifePlans": true,
     "_migration": true
   },
@@ -253,10 +265,10 @@
   "secretsIncluded": true,
   "inProgress": false,
   "files": {
-    "characters.json": {
-      "h": "g:44454617c3f77bf9cb308a23a84539ad382c60e7",
+    "_localStorage.json": {
+      "h": "g:c58d7b7e816b930ce31deca6f2f23a633030a0cd",
       "gz": false,
-      "b": "44454617c3f77bf9cb308a23a84539ad382c60e7"
+      "b": "c58d7b7e816b930ce31deca6f2f23a633030a0cd"
     },
     "friendRequests.json": {
       "h": "g:1d2752f1095d549ac72ac18b0ff41d1a1297614b",
@@ -268,10 +280,10 @@
       "gz": false,
       "b": "b13eba7dbc1f072f95f08307098e501cd50a1252"
     },
-    "_localStorage.json": {
-      "h": "g:c643c2b6d6bc5d7969ed5ce9eac8164c4facddba",
+    "characters.json": {
+      "h": "g:71e41eadaba43464fb26fffa78bd56cb2ce6fabe",
       "gz": false,
-      "b": "c643c2b6d6bc5d7969ed5ce9eac8164c4facddba"
+      "b": "71e41eadaba43464fb26fffa78bd56cb2ce6fabe"
     },
     "stickers_chunk_0.json": {
       "h": "g:92bb4efbb65a89a56d3bc63766fa4cf56ef47f4b",
@@ -303,20 +315,15 @@
       "gz": false,
       "b": "3397290a12c80cc684a4a82f97ef6d62c3a5239d"
     },
-    "userState.json": {
-      "h": "g:500eab2685ee962648ec104006622377f283c188",
-      "gz": false,
-      "b": "500eab2685ee962648ec104006622377f283c188"
-    },
     "userPosts.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "chatSettings.json": {
-      "h": "g:8a4a2668a98175634a54eb23c6703db80731b8d4",
+    "userState.json": {
+      "h": "g:a764f5a9e20e9f24bb8bad5772ab9b07afd828d3",
       "gz": false,
-      "b": "8a4a2668a98175634a54eb23c6703db80731b8d4"
+      "b": "a764f5a9e20e9f24bb8bad5772ab9b07afd828d3"
     },
     "messages_chunk_0.json": {
       "h": "g:cef0fbb6151b517334b8c953901b9853f6b6eaae",
@@ -437,6 +444,11 @@
       "h": "g:13723a2576ea0522e21552ecfbbbdd3e264314d9",
       "gz": false,
       "b": "13723a2576ea0522e21552ecfbbbdd3e264314d9"
+    },
+    "chatSettings.json": {
+      "h": "g:439b87c9b6cc976c79ff2635b0a8253ee09b0151",
+      "gz": false,
+      "b": "439b87c9b6cc976c79ff2635b0a8253ee09b0151"
     },
     "messages_chunk_24.json": {
       "h": "g:6aa62adb1dc18d6f35928095bcd72ecdc5557081",
@@ -1143,11 +1155,6 @@
       "gz": false,
       "b": "e399768194422c51cbe1c958c52b317852c8765f"
     },
-    "calendarData.json": {
-      "h": "g:49c5a9cc44dcbb4f5903514ffb8cda62ca4ab700",
-      "gz": false,
-      "b": "49c5a9cc44dcbb4f5903514ffb8cda62ca4ab700"
-    },
     "customCalendars.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -1167,6 +1174,11 @@
       "h": "g:eafa49afd6b08e1a2067b95b5560d011b068657f",
       "gz": false,
       "b": "eafa49afd6b08e1a2067b95b5560d011b068657f"
+    },
+    "calendarData.json": {
+      "h": "g:c9fc42c592856304517567c229e54a9dbbe28a20",
+      "gz": false,
+      "b": "c9fc42c592856304517567c229e54a9dbbe28a20"
     },
     "xinshengRounds_chunk_1.json": {
       "h": "g:cc8b559d1b69ea90586b2bd389bcb17fa928bb57",
@@ -1703,11 +1715,6 @@
       "gz": false,
       "b": "75f5e04d4e3e66cb0503df656d6d4e3b9085e03f"
     },
-    "mapRasterCache.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
     "shareLinkMeta.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -1717,11 +1724,6 @@
       "h": "g:9d643d80806169fdcd4f07eb0bdeff599a5c9d18",
       "gz": false,
       "b": "9d643d80806169fdcd4f07eb0bdeff599a5c9d18"
-    },
-    "customGameSaves.json": {
-      "h": "g:0aab0c26e60d981b16c75e7271c434da5198a332",
-      "gz": false,
-      "b": "0aab0c26e60d981b16c75e7271c434da5198a332"
     },
     "customWidgetTemplates.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1783,6 +1785,11 @@
       "gz": false,
       "b": "0921e69ecc5d5fa2ec216f14f8d1c6a4b288beec"
     },
+    "customGameSaves.json": {
+      "h": "g:8df07892385b91454e1fe5ed58ee72292eb0fe0a",
+      "gz": false,
+      "b": "8df07892385b91454e1fe5ed58ee72292eb0fe0a"
+    },
     "thinkingStore_chunk_1.json": {
       "h": "g:ffc53c163dc7492bda30e56d82ccb186e47e13f0",
       "gz": false,
@@ -1812,11 +1819,6 @@
       "h": "g:c24c44e3e2ffab44c97fefc34208602ce2847351",
       "gz": false,
       "b": "c24c44e3e2ffab44c97fefc34208602ce2847351"
-    },
-    "healthEntries.json": {
-      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
-      "gz": false,
-      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "healthProfile.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -1923,6 +1925,11 @@
       "gz": false,
       "b": "7095eb65e2768fbe3aa56d1eacb70aa78f9b8525"
     },
+    "healthEntries.json": {
+      "h": "g:31887b330c0675716b6427511d39183ac1306d3c",
+      "gz": false,
+      "b": "31887b330c0675716b6427511d39183ac1306d3c"
+    },
     "novelBooks.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -1958,11 +1965,6 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "rowFieldItems_chunk_0.json": {
-      "h": "g:6e492e3191bb1a9ca86edfe7cd9a315d69b1d9ee",
-      "gz": false,
-      "b": "6e492e3191bb1a9ca86edfe7cd9a315d69b1d9ee"
-    },
     "rowFieldItems_chunk_1.json": {
       "h": "g:7d2a157dbe56f824c32a00be241c52477e1518e6",
       "gz": false,
@@ -1974,6 +1976,16 @@
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "coReadTranslations.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadTheaters.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "charPastStories.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
@@ -2018,20 +2030,30 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "studyVocabDecks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyVocabWords.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyVocabDays.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
     "naiVibeCache.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "walletTransactions.json": {
-      "h": "g:2d329fdb44caea318875c2afd804552ae1ca6ed9",
+      "h": "g:f2b5134fbfeaf2bb8a39ff0575d86e54843b0a7e",
       "gz": false,
-      "b": "2d329fdb44caea318875c2afd804552ae1ca6ed9"
-    },
-    "walletData.json": {
-      "h": "g:21e1e1d309c21d7b5eec89ade1175e6f88fed4dd",
-      "gz": false,
-      "b": "21e1e1d309c21d7b5eec89ade1175e6f88fed4dd"
+      "b": "f2b5134fbfeaf2bb8a39ff0575d86e54843b0a7e"
     },
     "shopOrders.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -2063,15 +2085,15 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "timeCards.json": {
-      "h": "g:f9fa674ecc2fd3f80a054e4924893553839f238b",
+    "walletData.json": {
+      "h": "g:71f802fda4345dbea1a0f8a950ba136c4a467df8",
       "gz": false,
-      "b": "f9fa674ecc2fd3f80a054e4924893553839f238b"
+      "b": "71f802fda4345dbea1a0f8a950ba136c4a467df8"
     },
-    "timeCardState.json": {
-      "h": "g:be35e00f7beb95d394ba9be0914d9891846ff813",
+    "timeCards.json": {
+      "h": "g:9a37c80e1ae38b28147cd9c508e582413b2e0370",
       "gz": false,
-      "b": "be35e00f7beb95d394ba9be0914d9891846ff813"
+      "b": "9a37c80e1ae38b28147cd9c508e582413b2e0370"
     },
     "filmProjects.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -2098,15 +2120,20 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "chatVariables.json": {
-      "h": "g:0820a86dd275d9bad37997418580fde5e6572ddb",
+    "tmFavorites.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
-      "b": "0820a86dd275d9bad37997418580fde5e6572ddb"
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "plugins.json": {
-      "h": "g:b2fe7cf3fa5fccf8ca01a2e6ee3289d1fc6c0f06",
+    "timeCardState.json": {
+      "h": "g:498db64b761dd9104667a792675f729139eda146",
       "gz": false,
-      "b": "b2fe7cf3fa5fccf8ca01a2e6ee3289d1fc6c0f06"
+      "b": "498db64b761dd9104667a792675f729139eda146"
+    },
+    "chatVariables.json": {
+      "h": "g:85f1163be61701ea751b4c9bf422b443367aa06a",
+      "gz": false,
+      "b": "85f1163be61701ea751b4c9bf422b443367aa06a"
     },
     "avatarFrames.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -2138,6 +2165,11 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "charSocialLinks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
     "charLifePlans.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -2147,6 +2179,16 @@
       "h": "g:53e9700a7b7dbcf06568d6f1f4be03fb5be72f74",
       "gz": false,
       "b": "53e9700a7b7dbcf06568d6f1f4be03fb5be72f74"
+    },
+    "rowFieldItems_chunk_0.json": {
+      "h": "g:1ab5eccc5111631de47b0c89078016b8723ee0f8",
+      "gz": false,
+      "b": "1ab5eccc5111631de47b0c89078016b8723ee0f8"
+    },
+    "plugins.json": {
+      "h": "g:787459c3500131c540ba35376637382aee38770f",
+      "gz": false,
+      "b": "787459c3500131c540ba35376637382aee38770f"
     },
     "globalSettings.json": {
       "h": "g:bfda323740c96fe80b64553c9d6110c82817e83d",
